@@ -13,6 +13,8 @@ public class Practice02_IlkelVeriTipleri {
         String metin = "Hello World";
 
         System.out.println(sayi1);
+        System.out.println("sayi1 = " + sayi1);
+
         System.out.println(sayi2);
         System.out.println(sayi3);
         System.out.println(sayi4);
