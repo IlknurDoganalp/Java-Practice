@@ -1,3 +1,5 @@
+package javaOzet;
+
 public class WhileLoop_DoWhileLoop {
     public static void main(String[] args) {
         /* While dongusu

@@ -1,3 +1,5 @@
+package javaOzet;
+
 public class Operatörler {
     public static void main(String[] args) {
 

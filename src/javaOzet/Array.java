@@ -1,3 +1,5 @@
+package javaOzet;
+
 import java.util.ArrayList;
 
 public class Array {
@@ -7,10 +9,10 @@ public class Array {
         isimler.add("Veli");
         isimler.add("Ayse");
         isimler.add("Fatma");
-        System.out.println("Array List: "+isimler);
+        System.out.println("javaOzet.Array List: "+isimler);
 
         isimler.add(2,"Ahmet");
-        System.out.println("Yeni Array List: "+isimler);
+        System.out.println("Yeni javaOzet.Array List: "+isimler);
 
         isimler.remove(2);
         System.out.println(isimler);

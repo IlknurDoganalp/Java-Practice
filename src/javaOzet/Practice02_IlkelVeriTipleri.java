@@ -1,3 +1,5 @@
+package javaOzet;
+
 public class Practice02_IlkelVeriTipleri {
     public static void main(String[] args) {
 

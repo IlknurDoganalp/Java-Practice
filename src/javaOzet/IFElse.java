@@ -1,3 +1,5 @@
+package javaOzet;
+
 public class IFElse {
     public static void main(String[] args) {
 
