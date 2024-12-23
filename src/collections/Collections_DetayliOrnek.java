@@ -46,5 +46,6 @@ public class Collections_DetayliOrnek {
     public static void main(String[] args) {
         listORnekleri(); // yukarida olusturdugumuz method static oldugu icin direkt ismi ile cagirabiliyoruz.
     }
+    //
 
 }
