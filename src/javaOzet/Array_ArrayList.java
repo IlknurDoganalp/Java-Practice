@@ -29,5 +29,13 @@ public class Array_ArrayList {
         sayilarListesi.remove(0);
         System.out.println("Silinen Eleman: " + ilkEleman);
 
+        /*
+        Not: 1.	Array ile ArrayList arasındaki farklar;
+        	Array sabit boyutludur, ArrayList dinamik boyutludur ve Java Collections framework'ün bir parçasıdır.
+             2.	HashMap nedir? Nasıl çalışır?
+     	Anahtar-değer (key-value) çiftleriyle çalışan bir koleksiyon sınıfıdır; hashing kullanarak verileri depolar.
+
+         */
+
     }
 }
