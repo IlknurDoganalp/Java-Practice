@@ -1,9 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Vector;
+import java.util.*;
 
 public class Collections_DetayliOrnek {
 
@@ -42,9 +39,65 @@ public class Collections_DetayliOrnek {
         System.out.println("Vector'in ilk hali: "+vector);
 
     }
+     public static void setOrnekleri() {
+
+         HashSet<String> hashSet = new HashSet<>();
+         hashSet.add("Elma");
+         hashSet.add("Armut");
+         hashSet.add("Portakal");
+         hashSet.add("Kivi");
+         hashSet.add("Elma");
+         System.out.println("HashSet'in ilk hali: " + hashSet);
+         // has sette yazdirma islemi olusturdugumuz siraya uygun olmayabilir.LinkedHashsette olusturdugumuz
+         // sirayla yazdirilacak.
+
+         LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
+         linkedHashSet.add(1);
+         linkedHashSet.add(6);
+         linkedHashSet.add(3);
+         linkedHashSet.add(8);
+         linkedHashSet.add(8);
+         System.out.println("LinkedHashSet'in ilk hali: " + linkedHashSet);
+         // Tekrar eden degiskenler 1 kez yazilir.
+
+         TreeSet<String> treeSet=new TreeSet<>();
+         treeSet.add("Elma");
+         treeSet.add("Armut");
+         treeSet.add("Portakal");
+         treeSet.add("Kivi");
+         treeSet.add("Elma");
+         System.out.println("TreeSet'in ilk hali: " + treeSet);
+         // Tree set; dogal bir siralama yapar. Siralama ya alfabetik siraya gore ya da buyukten kucuge gore gerceklesir.
+
+     }
+
+     public static void HashMapOrnekleri() {
+         HashMap<String, String> hashMap = new HashMap<>();
+         hashMap.put("Elma", "300");
+         hashMap.put("Armut", "250");
+         hashMap.put("Portakal", "400");
+         hashMap.put("Kivi", "200");
+         hashMap.put("Elma", "250");
+         System.out.println("HashMap'in ilk hali: " + hashMap);
+
+         LinkedHashMap<String, Integer> linkedHashMap = new LinkedHashMap<>();
+         linkedHashMap.put("Elma", 300);
+         linkedHashMap.put("Armut", 250);
+         linkedHashMap.put("Portakal", 400);
+         linkedHashMap.put("Kivi", 200);
+         linkedHashMap.put("Elma", 250);
+     }
+
+
+
 
     public static void main(String[] args) {
-        listORnekleri(); // yukarida olusturdugumuz method static oldugu icin direkt ismi ile cagirabiliyoruz.
+        listORnekleri(); // yukarida olusturdugumuz method static oldugu icin direkt ismi ile cagirip yazdiriyoruz.
+           // Egerki buradan cagirmazsak konsolda yazdirma islemi gerceklesmez.
+        setOrnekleri();
+
+
+
     }
     //
 
