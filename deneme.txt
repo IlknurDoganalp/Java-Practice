@@ -1,1 +1,3 @@
-Bu bir yeni dosya.Javaya dair ders notlari bu alana yazilabilir.
+Merhaba
+Javaya dair dosya islemleri.
+Deneme giris satiri
